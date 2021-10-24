@@ -1,1 +1,1 @@
-console.log();
+console.log("ejemplo desde windows");
