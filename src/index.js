@@ -1,1 +1,0 @@
-console.log("ejemplo desde windows");
