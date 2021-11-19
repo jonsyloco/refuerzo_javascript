@@ -23,6 +23,6 @@ console.log(persona,persona2); // al imprimi la modificacion tambien se altera e
 
 const persona3 = {... persona}
 
-persona3.nombre = "wagner"
+persona3.nombre = "juan"
 
 console.log(persona,persona2, persona3); // :)
