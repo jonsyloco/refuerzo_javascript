@@ -10,6 +10,8 @@ const giphyApi = axios.create({
     }
 });
 
+export default giphyApi;
+
 giphyApi.get('/random')
     .then( resp => {
         const {data} = resp.data

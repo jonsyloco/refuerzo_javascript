@@ -1,11 +1,10 @@
-import axios from 'axios'
+let firstName = "wagner";
+let lastName;
 
-const apiKey = "7PfmRBImd4IbSfxCwqU2zzlJbPRROfQi";
-const url = `https://api.giphy.com/v1/gifs/random?api_key=${apiKey}`;
+console.log(`${firstName || 'No firstName'} ${lastName || 'No lastName'}`);
 
-const giphyApi = axios.create({
-    baseURL: 'https://api.giphy.com/v1/gifs',
-    params: {
-        api_key: apiKey
-    }
-});
+const active = false;
+
+const mensaje = (active) ? "activo" : "falso";
+
+console.log(mensaje);
